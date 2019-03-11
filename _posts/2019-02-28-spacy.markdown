@@ -1,0 +1,45 @@
+---
+layout: post
+title:  "spaCy"
+date:   2020-02-28 00:09:53 -0300
+categories: jekyll static-generator
+---
+
+spaCy is a library for dealing with Natural Language Processing(NLP)
+
+I first heard of it while dealing with a chatbot implementation with the RASA framerwork, and decided to give it a deeper look.
+
+NLP encompasses many interesting problems. 
+
+One can ask, for exemple,
+
+- what is the role played by each word in a sentence;
+- what are known entities - people's names, places, and so on;
+
+One can also be interested in learning efficient representations for the words themselves. This is adrressed by the word embedding problem.
+
+spaCy comes with pre-trained vectors for some languages, and using it is quite straightforward:
+
+
+The first thing one can ask is how to 
+
+$$
+M = \left( \begin{array}{ccc}
+x_{11} & x_{12} & \ldots \\
+x_{21} & x_{22} & \ldots \\
+\vdots & \vdots & \ldots \\
+\end{array} \right)
+$$
+
+To reuse an existing directory, use the `--force` option:
+
+{% highlight bash %}
+jekyll new felipe-araujo.github.io --force
+{% endhighlight %}
+
+Push it to the master branch, and GitHub takes care of the rest.
+
+
+
+# References
+[Google](http://www.google.com)
